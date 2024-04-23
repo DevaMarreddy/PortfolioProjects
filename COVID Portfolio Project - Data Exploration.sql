@@ -30,7 +30,7 @@ order by 1,2;
 
 
 -- Total Cases vs Population
--- Shows what percentage of population infected with Covid
+-- Calculates the percentage of Covid cases resulting in deaths in your country
 
 Select Location, date, Population, total_cases,  (total_cases/population)*100 as PercentPopulationInfected
 From CovidDeaths

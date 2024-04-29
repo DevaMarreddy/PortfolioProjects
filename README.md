@@ -1,17 +1,23 @@
-**Project-1**:- **World Layoffs Data Cleaning**
+**Project-1**:- **World Layoffs Data Cleaning and Exploratory Analysis**
 ---
-- Overview:- This project focuses on cleaning a dataset related to global layoffs using SQL. The goal is to standardize data, remove duplicates, and handle missing values.
+- Overview:- This project focuses on cleaning and analyzing a dataset related to global layoffs using SQL. The goals are to standardize data, remove duplicates, handle missing values, and explore trends and insights from the cleaned dataset.
 - Dataset:- The dataset contains information about layoffs, including company details, industry, number of employees laid off, date, and more.
-- Skills used:- SQL, CTEs, Window Functions, Data Cleaning, Data Manipulation, Joins
+- Skills used:- SQL, CTEs, Window Functions, Data Cleaning, Data Manipulation, Joins, Data Analysis, Aggregate Functions
 - Cleaning Process:-
     1. Removed duplicates using CTEs and window functions.
     2. Standardized data formats (e.g., dates, company names, industries).
     3. Handled null and empty values.
     4. Removed unnecessary data.
+- Exploratory Data Analysis:-
+    1. Investigated companies that had 100% of their workforce laid off, potentially indicating startups going out of business.
+    2. Analyzed the scale of layoffs by exploring the maximum and minimum values for total employees laid off and percentage laid off.
+    3. Identified companies, locations, and industries with the highest number of total layoffs.
+    4. Examined layoff trends over time by analyzing the total employees laid off per country, per year, and calculated the monthly total and rolling sum.
 - The following files are directly related to this project:
     - [layoffs.csv](https://github.com/DevaMarreddy/PortfolioProjects/blob/main/layoffs.csv) (dataset)
     - [World_Layoffs Project - Data Cleaning.sql](https://github.com/DevaMarreddy/PortfolioProjects/blob/main/World_Layoffs%20Project%20-%20Data%20Cleaning.sql) (SQL script for data cleaning)
-- Usage:- The cleaned dataset can be used for analyzing layoff trends, exploring relationships between variables, and data visualization.
+    - [World_Layoffs Project - Exploratory Data Analysis.sql](https://github.com/DevaMarreddy/PortfolioProjects/blob/main/World_Layoffs%20Project%20-%20Exploratory%20Data%20Analysis.sql) (SQL script for Exploratory Data Analysis)
+- Usage:- The cleaned and analyzed dataset can be used for reporting, visualizing layoff trends, exploring relationships between variables, and gaining insights into the global layoff landscape.
 ---
 
 
